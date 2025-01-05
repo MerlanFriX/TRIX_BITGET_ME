@@ -15,6 +15,8 @@ else
         PYTHON_SCRIPT="python3 Live-Tools-V2/strategies/trix/multi_bitmart.py"
     elif [ "$ARGUMENT" == "trix_multi_bitmart_lite" ]; then
         PYTHON_SCRIPT="python3 Live-Tools-V2/strategies/trix/multi_bitmart_lite.py"
+    elif [ "$ARGUMENT" == "trix_multi_bitget_lite" ]; then
+        PYTHON_SCRIPT="python3 Live-Tools-V2/strategies/trix/multi_bitget_lite.py"
     elif [ "$ARGUMENT" == "envelopes_multi_bitget" ]; then
         PYTHON_SCRIPT="python3 Live-Tools-V2/strategies/envelopes/multi_bitget.py"
     else
